@@ -12,6 +12,7 @@ html {
 
 :root {
   --Dark-cyan: hsl(158, 36%, 37%);
+  --Darker-cyan: hsl(159, 38%, 18%);
   --Cream: hsl(30, 38%, 92%);
   --Very-dark-blue: hsl(212, 21%, 14%);
   --Dark-grayish-blue: hsl(228, 12%, 48%);
@@ -123,6 +124,15 @@ button {
   padding: 1rem 0;
   border-radius: 0.5rem;
   border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--Darker-cyan);
+}
+
+button:active {
+  background-color: var(--Darker-cyan);
 }
 
 @media screen and (max-width: 463px) {
